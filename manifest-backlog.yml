@@ -8,6 +8,8 @@ applications:
   env:
     #REGISTRATION_SERVER_ENDPOINT: http://registration-pal-gohwm.apps.evans.pal.pivotal.io
     JBP_CONFIG_OPEN_JDK_JRE: '{ jre: { version: 11.+ } }'
+    GRANT_TYPE: client_credentials
   services:
   - tracker-backlog-database
   - tracker-service-registry
+  - tracker-sso
