@@ -1,4 +1,4 @@
-package io.pivotal.pal.tracker.allocations;
+package io.pivotal.pal.tracker.backlog;
 
 import org.springframework.context.annotation.Configuration;
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;
